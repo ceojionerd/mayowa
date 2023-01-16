@@ -33,5 +33,5 @@ Select * from person where depcode=3, city='Turku' Order by lname, fname;
 
 -- 10. Fetch all person living in Turku and those whose salary is 2800. Socsecno, lastname, firstname, city, salary.
 Select lname, fname, city, salary from person
-Where salary = 2800
+Where salary = 2800;
 
