@@ -10,12 +10,12 @@ SELECT location FROM project WHERE pid = '';
 -- 4. Fetch first and last names, cities and salaries. Name salary column as monthly salary.
 Select fname, lname, city, salary from person where city='KUOPIO';
 
+ALTER TABLE Customers RENAME COLUMN first_name TO 'montly salary';
+
 -- 5. Sort previous task by city and last name.
 SELECT fname, lname, city, salary FROM person
 Order by city, lname;
 
-ALTER TABLE Customers 
-RENAME COLUMN first_name TO 'montly salary';
 
 SELECT fname, lname, city, salary FROM person;
 
